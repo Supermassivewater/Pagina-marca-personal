@@ -1,0 +1,217 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+#imagen{
+	margin: -50px 0px 0px -5px;
+	float: left;
+	width: 400px;
+	height: 200px;
+}
+
+header{
+	background: rgb(4,4,4);
+background: linear-gradient(135deg, rgba(4,4,4,1) 0%, rgba(39,149,173,1) 100%);	
+	height: 900px;
+}
+
+nav ul{
+	text-align: center;
+	height: 90px; 
+	font-size: 23px;
+	background-color: transparent;
+}
+.menu{
+	text-decoration: none;
+	color: white;
+}
+
+
+li{
+	color: black;
+	font-family: 'Roboto', sans-serif;
+	padding: 40px 70px 0px 0px;
+	display: inline-block;
+}
+
+#josh{
+	width: 938px;
+    position: relative;
+    top: -64px;
+    left: 500px;
+
+}
+#letras{
+    width: 655px;
+    position: relative;
+    top: -923px;
+    left: -30px;
+
+}
+#texto{
+    position: relative;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    top: -992px;
+    left: 44px;
+    width: 473px;
+    font-size: 25px;
+    background-color: transparent;
+}
+
+/*---Seccion sobre mi----*/
+#sobremi{
+	text-align: center;
+	font-size: 25px;
+	height: 900px;
+}
+    .containers {
+      background: #f0f0f0;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100vw;
+      height: 100vh;
+    }
+    .animabox {
+      border-radius: 20px;
+      width: 90px;
+      height: 90px;
+      background: #f0f0f0;
+      box-shadow:  0 0 0 #cccccc,
+                   0 0 0 #ffffff,
+                    10px 10px 10px #cccccc inset,
+                    -10px -10px 10px #ffffff inset;
+        			animation: anime 3s cubic-bezier(0.16, 1, 0.3, 1) 0.1s;
+      	animation-fill-mode: forwards;
+      	
+    }
+    /*
+    .animabox:hover {
+    	animation: anime 3s cubic-bezier(0.16, 1, 0.3, 1) 0.1s;
+      	animation-fill-mode: forwards;
+    }
+    .animabox::before {
+    	animation: anime 3s cubic-bezier(0.16, 1, 0.3, 1) 0.1s;
+      	animation-direction: reverse;
+    }
+    */
+        	
+
+    @keyframes anime {
+      0% {
+        width: 90px;
+        height: 90px;
+        background: #f0f0f0;
+        box-shadow:  0 0 0 #cccccc,
+                     0 0 0 #ffffff,
+                      10px 10px 10px #cccccc inset,
+                      -10px -10px 10px #ffffff inset;
+      }
+      25% {
+        width: 90px;
+        height: 90px;
+        background: #f8f8f8;
+        box-shadow:  10px 10px 10px #cccccc,
+                     10px 10px 10px #ffffff,
+                     0 0 0 #cccccc inset,
+                     0 0 0 #ffffff inset;
+      }
+      50% {
+        width: 60px;
+        height: 540px;
+        background: #f8f8f8;
+        box-shadow:  10px 10px 10px #cccccc,
+                     10px 10px 10px #ffffff,
+                     0 0 0 #cccccc inset,
+                     0 0 0 #ffffff inset;
+      }
+      100% {
+        width: 1200px;
+        height: 700px;
+        background: linear-gradient(90deg, rgba(240,24,243,1) 0%, rgba(255,255,255,1) 51%);
+
+        box-shadow:  40px 40px 40px #cccccc,
+                     0 0 0 #ffffff,
+                     0 0 0 #cccccc inset,
+                     2px 2px 2px #ffffff inset;
+      }
+       }
+
+       #precentacion-foto{
+    
+       	height: 100%;
+       	width: 350px;
+       	float: left;
+       }
+       #avatar{
+       	border-radius: 50%;
+       	position: relative;
+       	    top: 176px;
+    	left: 35px;
+       }
+
+       #precentacion-texto{
+       	font-size: 30px;
+       	color: black;
+       	margin-top: 175px;
+       	
+       }
+/*---Seccion de proyectos----*/
+#proyectos{
+	align-content: center;
+	position: absolute;
+	height: 1100px;
+}
+
+#card{
+    width: 1372px;
+    height: 840px;
+    border-radius: 30px;
+    border: 5px solid black;
+    position: relative;
+    top: 75px;
+    left: 170px;
+
+}
+#card:hover {
+  box-shadow: 0 0 40px rgba(33,33,33,.2); 
+}
+
+#images1{
+    border-radius: 30px;
+    width: 525px;
+    position: absolute;
+    top: -1px;
+    left: 848px;
+}
+#images2{
+	border-radius: 30px;
+	width: 586px;
+    position: absolute;
+    top: 295px;
+    left: 470px;
+}
+#images3{
+	border-radius: 30px;
+    width: 727px;
+    position: absolute;
+    top: -1px;
+    left: 0px;
+}
+
+#textaco{
+	font-family: Raleway;
+	font-size: 35px;
+	color: black;
+	position: absolute;
+	top: 660px;
+	left: 10px;
+}
+/* Contacto*/

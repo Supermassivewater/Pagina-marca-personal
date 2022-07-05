@@ -1,0 +1,103 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/168b915a46.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="styles/style-marca-personal.css">
+	<title>Proyecto final</title>
+	<!-- Aqui van las tipografias-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+
+
+	<!-- Aqui cierran las tipografias-->
+ 
+</head>
+<body>
+	<header>
+		<nav>
+			<img id="imagen" src="images/logo.png" alt="Logo">
+			<ul>
+				<li ><a class="menu" href="">Quien soy</a></li>
+				<li ><a class="menu" href="">Sobre mi</a></<li>
+				<li ><a class="menu" href="">Experiencia</a></li>
+				<li ><a class="menu" href="">Contacto</a></li>
+			</ul>
+		</nav>
+		<img id="josh" src="images/josh1.png" alt="Josh">
+		<img id="letras" src="images/letras.png" alt="letras">
+		<article id="texto">
+			<p>Un apasionado estudiente dispuesto a dar lo mejor de si, de entregar lo mejor en los trabajos que le apasionen, un poco de todo encontraras aqui...</p>
+		</article>
+	</header>
+	
+</body>
+</html>
+
+
+
+
+
+--------------------------CSS*-------------------------------
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+#imagen{
+	margin: -50px 0px 0px -5px;
+	float: left;
+	width: 400px;
+	height: 200px;
+}
+
+header{
+	background: rgb(4,4,4);
+background: linear-gradient(135deg, rgba(4,4,4,1) 0%, rgba(39,149,173,1) 100%);	
+	height: 900px;
+}
+
+nav ul{
+	text-align: center;
+	height: 90px; 
+	font-size: 23px;
+	background-color: transparent;
+}
+.menu{
+	text-decoration: none;
+	color: white;
+}
+
+
+li{
+	color: black;
+	font-family: 'Roboto', sans-serif;
+	padding: 40px 70px 0px 0px;
+	display: inline-block;
+}
+
+#josh{
+	width: 938px;
+    position: relative;
+    top: -64px;
+    left: 500px;
+
+}
+#letras{
+    width: 655px;
+    position: relative;
+    top: -923px;
+    left: -30px;
+
+}
+#texto{
+    position: relative;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    top: -992px;
+    left: 44px;
+    width: 473px;
+    font-size: 25px;
+    background-color: transparent;
+}
